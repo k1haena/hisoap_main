@@ -1,0 +1,168 @@
+*{margin: 0; padding: 0;}
+ul{list-style: none;}
+a{text-decoration: none; color: #000;}
+body{
+  font-family: "나눔고딕";
+  font-size: 12px;
+  line-height: 22px;
+  color: #000;
+}
+
+
+/* top */
+
+#top{
+  background-color: #333;
+  height: 42px;
+}
+.top_inner{
+  width: 1000px;
+  margin: auto;
+}
+.left{
+  float: left;
+}
+.left li{
+  float: left;
+}
+.left li a{
+  display: block; /*a태그에 padding 넣고 싶을때 꼭! 같이 쓰기*/
+  padding: 10px 50px 10px 50px;
+  color: #fff;
+}
+.bg1 a{
+  background-color: #008944;
+}
+.bg2 a{
+  background-color: #7e5300;
+}
+.line{
+  border-right: 1px solid rgba(255, 255, 255, 0.8);
+}
+.right{
+  float: right;
+}
+.right li{
+  float: left;
+  padding: 10px 0 10px 20px;
+}
+.right li a{
+  color: #ccc;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+/* header */
+#header{
+  height: 86px;
+  border-bottom: 2px solid #ccc ;
+}
+.header_inner{
+  width: 1000px;
+  margin: auto;
+}
+h1{
+  float: left;
+  padding: 20px 0;
+}
+.nav{
+  float: right;
+}
+.nav li{
+  float: left;
+}
+.nav li a{
+  display: block;
+  padding: 32px 30px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.nav li a:hover{color: #7e5300;}
+.content{
+  width: 1000px;
+  height: 600px;
+  margin: auto;
+}
+.c_left{
+  width: 200px;
+  float: left;
+  margin-top: 30px;
+}
+.c_left h2{
+  font-size: 30px;
+  padding: 30px 0;
+}
+.c_left ul{
+  border-bottom: 1px solid #ccc;
+}
+.c_left ul li a{
+  display: block;
+  padding: 10px 0 10px 15px;
+  border-top: 1px solid #ccc;
+}
+.c_left ul li a:hover{
+  border-top: 2px solid #555;
+  background-color: #008944;
+  color: #fff;
+  font-weight: bold;
+}
+.c_right{
+  width: 750px;
+  float: right;
+}
+.c_right h2{
+  font-size: 40px;
+  padding : 40px 0 30px 0;
+}
+.img{
+  width: 250px;
+  float: left;
+}
+.txt{
+  width: 470px;
+  float: right;
+}
+.txt img{
+  padding-bottom: 20px;
+}
+p{padding-bottom: 12px;}
+table{
+  width: 470px;
+  border-top: 5px solid #0066cc ;
+}
+th, td{
+  border-bottom: 1px solid #ccc;
+}
+th{
+  text-align: left;
+  padding: 5px 0 5px 15px ;
+  background-color: #f2f2f2;
+}
+td{
+  padding-left: 15px;
+}
+.footer{
+  background-color: #444;
+  height: 170px;
+  margin-top: 40px;
+}
+.footer_inner{
+  width: 1000px;
+  margin: auto;
+  padding: 20px 0 0 20px;
+}
+.footer_inner ul li{
+  float: left;
+  padding:  0 20px 0 0;
+  color: #f2f2f2;
+  font-size: 12px;
+}
+.footer_inner ul li a{color: #f2f2f2; }
+.f_txt{
+  clear: both;
+  padding-top: 30px;
+  color: #888;
+  line-height: 10px;
+}
+
+
+
